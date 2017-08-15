@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="useradmin" />
+        <module name="userfrontend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="useradmin" target="1.8" />
+      <module name="userfrontend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
