@@ -1,12 +1,12 @@
-package pl.salega.userfrontend;
+package pl.salega.useradmin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserfrontendApplication {
+public class UserAdminApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserfrontendApplication.class, args);
+		SpringApplication.run(UserAdminApplication.class, args);
 	}
 }
